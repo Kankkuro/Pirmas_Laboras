@@ -2,6 +2,7 @@ package com.example.myapplication;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
@@ -17,5 +18,6 @@ public class MainActivity extends AppCompatActivity {
     public void onbtnMainClick(View view) {
         TextView tvMain = findViewById(R.id.tvMain);
         tvMain.setText(R.string.new_text);
+        tvMain.setTextColor(Color.RED);
     }
 }
